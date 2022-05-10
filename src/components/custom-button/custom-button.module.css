@@ -40,17 +40,3 @@
   height: 0;
   background-color: white;
 }
-
-.button:active {
-  animation: shake 1s ease-in;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
-}
-
-@keyframes shake {
-  100% { 
-    background-color: white;
-    box-shadow: 0px 0px 25px 14px white;
-  }
-}

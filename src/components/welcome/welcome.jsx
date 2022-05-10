@@ -4,7 +4,6 @@ import FirstSofa from '../sofas/first-sofa';
 import SecondSofa from '../sofas/second-sofa';
 import { useState } from 'react';
 import CustomButton from '../custom-button/custom-button';
-import Loader from '../loader/loader';
 
 export default function Welcome() {
 
@@ -19,7 +18,7 @@ export default function Welcome() {
         <div className={styles.about}>
           <h1 className={styles.title}>Melatika</h1>
           <p className={styles.subtitle}>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolor voluptatem accusantium! Adipisci officiis aliquid soluta tempora doloribus? Ex nihil fugiat quaerat placeat voluptatum blanditiis magnam pariatur optio. Eveniet, deleniti!</p>
-          <CustomButton text='Click me and hold for 1sec!' clicHandler={() => setIsSecondModel(!isSecondModel)}/>
+          <CustomButton text='Нажми меня!' clicHandler={() => setIsSecondModel(!isSecondModel)}/>
         </div>
       </div>
     </main>
