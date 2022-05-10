@@ -1,0 +1,40 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: var(--font-basic);
+  padding: 2vw 0 1vw 0;
+  box-shadow: -1px 26px 60px -46px rgba(255, 255, 255, 0.6);
+  margin-bottom: 4vw;
+}
+
+.container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: var(--font-size-3);
+  gap: 5vw;
+}
+
+.leftList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listElement {
+
+}
+
+.logo {
+  color: white;
+  font-size: var(--font-size-1);
+  justify-self: center;
+}
